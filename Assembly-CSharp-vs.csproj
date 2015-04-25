@@ -46,8 +46,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Logic\Player\KidController.cs" />
+     <Compile Include="Assets\Scripts\Utility\InputManager.cs" />
      <Compile Include="Assets\Scripts\Utility\YoctoHelper.cs" />
+     <Compile Include="Assets\Scripts\Utility\YoctoMath.cs" />
      <Compile Include="Assets\Test\SpriteTest.cs" />
+     <Compile Include="Assets\Test\TGround.cs" />
      <Compile Include="Assets\Test\Test.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

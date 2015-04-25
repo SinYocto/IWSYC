@@ -46,4 +46,9 @@ public static class YoctoHelper
 		
 		tex.SetPixels(cols);
 	}
+
+	public static int Layer(string layerName)
+	{
+		return 1 << LayerMask.NameToLayer(layerName);
+	}
 }
